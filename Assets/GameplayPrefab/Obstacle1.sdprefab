@@ -1,0 +1,1664 @@
+!PrefabAsset
+Id: 0017cd95-eb51-414b-92ab-edd452165f2f
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 4c5ccc53-af99-4696-9c65-42e26efb36dd
+        - ref!! b569868a-87ff-4d92-bee3-c3f990ac23cd
+        - ref!! 1f9e7b89-0e88-4a1d-a720-7e3dd2bd6e95
+        - ref!! 78d72b82-6272-4926-9c5a-a8263d12d74d
+        - ref!! ddf7a14f-57e3-442a-b235-386b44894118
+        - ref!! 49f6926a-b04d-450a-9873-2e30cf0c893a
+        - ref!! f18d2947-5d18-42e9-b83b-06d7b404f1fe
+        - ref!! 499297b7-2e8a-4092-acfa-5e83777b44a4
+        - ref!! d5747d29-de97-419b-bf39-7a38281b29cf
+        - ref!! f62dc538-c091-4d86-ad1f-e985c0f4c59a
+        - ref!! d16b1248-0e97-43e2-b11d-2ac237741bea
+        - ref!! 9478379a-075e-4cc9-85f1-0da904a7a3ac
+        - ref!! eb48125e-884b-438d-a857-de2354dbe86e
+        - ref!! 0f557f10-7f38-4507-b707-fb056f7ed93e
+        - ref!! 604d3c9c-c09a-40a6-a93c-8f3c782b98a2
+        - ref!! d344113c-76e9-46c0-aa3d-6248939ef187
+        - ref!! f3f22022-b1ce-4fc7-ae2b-81514fa82836
+        - ref!! d8b51801-1406-4885-be0b-6e92a6c73b47
+        - ref!! 70f68b06-dbb8-4498-94af-1a3c9bb7d876
+        - ref!! 7fe718ff-bf3b-4d8b-9686-9d252a273feb
+        - ref!! 8da91f8c-6cdc-4d25-8b28-ab725786634f
+        - ref!! 35fe23fd-e6af-42eb-8875-5aea982daea8
+        - ref!! d42d00c9-f695-4964-8b10-c3a7b43a8117
+        - ref!! b623b111-307c-48f8-80c5-9f81855853a3
+        - ref!! dc4e5c03-cabb-4cff-9017-2cb72272d38d
+        - ref!! 69351f24-cbb5-478f-8940-a4ee6c29c872
+        - ref!! 6a5e5293-9c4e-4776-bc33-aabfb12d804d
+        - ref!! 3bebcfb2-7c06-4e00-a1ec-51cd87c2251a
+        - ref!! e832d9c2-9848-4885-b6a6-44b8470f2dac
+        - ref!! 5b7a98d4-40ae-41e9-bfd0-fcb7a0adc4a6
+        - ref!! 6ca14066-94e2-41be-a1ad-deb344aa909d
+        - ref!! 481100eb-e636-4c5e-abc7-47be53ed1dc7
+        - ref!! df72ae71-bc40-4a7d-9d47-463eb85bf602
+        - ref!! ff68d801-16b9-4201-9531-24db1f41fbf7
+        - ref!! 5799d271-1a60-4025-a80c-3ee93df532b6
+        - ref!! e7363418-02ae-42b5-ac3b-e875dfe4d68e
+        - ref!! 5d610a1e-7b25-482b-b7f1-d352c7d45e30
+        - ref!! 2800801a-dd92-43da-8680-e2d1e98b669a
+        - ref!! c2331f20-9ed9-4882-9e92-53f528883f02
+        - ref!! a616710d-0ccd-41a6-b799-762560d0f665
+    Parts:
+        -   Folder: Obstacles
+            Entity:
+                Id: 0f557f10-7f38-4507-b707-fb056f7ed93e
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 3828003a-ac77-4532-b674-5305a914317d
+                        Position*: {X: -16.42065, Y: 1.0231719, Z: -4.7101765}
+                        Rotation*: {X: 0.0009923915, Y: 0.13812608, Z: 0.0071156244, W: 0.9903885}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: 30a97ee6-3dce-410d-a06e-f6e0b7283be6
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: 1183c854-a841-4244-a446-fae2d7194f0e
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: 128a5610-8b0d-4de6-b816-80c805ba0980
+        -   Folder: Obstacles
+            Entity:
+                Id: 1f9e7b89-0e88-4a1d-a720-7e3dd2bd6e95
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 62425354-6235-41f9-a988-9cbb2b7cc8d9
+                        Position*: {X: 0.12062517, Y: 1.0, Z: -4.183828}
+                        Rotation*: {X: 0.0009923915, Y: 0.13812608, Z: 0.0071156244, W: 0.9903885}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: 8a12dc4a-f531-4001-ada7-00a84e3432c9
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: 6723963e-1d45-48da-8df8-03bbb56b868b
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: f3defdd9-cd3a-4406-b067-8674937fa9cd
+        -   Folder: Obstacles
+            Entity:
+                Id: 2800801a-dd92-43da-8680-e2d1e98b669a
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: e37eb78a-37dc-4674-9924-c12ae873490e
+                        Position*: {X: 15.0758915, Y: 2.8724144, Z: -17.799597}
+                        Rotation*: {X: 0.0058470294, Y: 0.8138191, Z: 0.004174829, W: 0.58107376}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: 1a51c0a8-dbdd-4e76-9232-dd03d3b9339f
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: 427aa656-c45a-435a-9e8b-06d420729c33
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: 064ad616-d8f3-473b-aad8-3a81a2628031
+        -   Folder: Obstacles
+            Entity:
+                Id: 35fe23fd-e6af-42eb-8875-5aea982daea8
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 229f37d8-977e-4ceb-af06-d5b7f99fee0b
+                        Position*: {X: -7.6100802, Y: 1.0231719, Z: 8.333794}
+                        Rotation*: {X: 0.0009923915, Y: 0.13812608, Z: 0.0071156244, W: 0.9903885}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: 76b7ef58-b301-4333-a76f-9c1d7346456f
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: 459db443-8e84-46cf-bd1f-3fa36158a835
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: e3700e68-6d32-4a7d-b645-a92bd2b63d0e
+        -   Folder: Obstacles
+            Entity:
+                Id: 3bebcfb2-7c06-4e00-a1ec-51cd87c2251a
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 42b4e1a5-254d-4629-903d-1ea15da455d1
+                        Position*: {X: -10.315481, Y: 1.0231719, Z: -7.8919935}
+                        Rotation*: {X: 0.0009923915, Y: 0.13812608, Z: 0.0071156244, W: 0.9903885}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: eac91a70-d67d-4b07-85a2-cd1daf0f7ecd
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: e87de2b5-be72-41a8-81bf-73f5b99c814e
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: 6301bda2-2558-463b-8d4d-608e8f657bb6
+        -   Folder: Obstacles
+            Entity:
+                Id: 481100eb-e636-4c5e-abc7-47be53ed1dc7
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 367bba6a-3442-4362-ba29-9f179decd1cf
+                        Position*: {X: 17.819426, Y: 2.0071478, Z: -9.838284}
+                        Rotation*: {X: 0.0058470294, Y: 0.8138191, Z: 0.004174829, W: 0.58107376}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: 8503e8ae-f62c-4cd4-aa8e-cc87f41f8370
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: bde6ac4d-5588-4e1b-8034-b5a8a44b7d7c
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: e84bc9e9-54e9-4741-894c-abe977e892b6
+        -   Folder: Obstacles
+            Entity:
+                Id: 499297b7-2e8a-4092-acfa-5e83777b44a4
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 0a190cde-dcad-4608-9860-0655b30074a7
+                        Position*: {X: -3.5746956, Y: 1.1030699, Z: -5.3570437}
+                        Rotation*: {X: 0.0009923915, Y: 0.13812608, Z: 0.0071156244, W: 0.9903885}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: b672f6c3-5b02-46bd-9059-13a1616aea83
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: d3f43724-c769-4c8d-8043-a1be0e2ca30b
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: 3b952bba-9727-4050-9a90-552450995798
+        -   Folder: Obstacles
+            Entity:
+                Id: 49f6926a-b04d-450a-9873-2e30cf0c893a
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 8c77cb62-1b30-438b-b10c-c6bf0aaa7c60
+                        Position*: {X: 3.9684458, Y: 1.2033957, Z: -4.359033}
+                        Rotation*: {X: 0.0009923915, Y: 0.13812608, Z: 0.0071156244, W: 0.9903885}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: bc94636b-887a-4ba4-9f12-726866288220
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: d5c54a67-7b68-4403-bbc5-d1c11810eb91
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: 618cfbd3-d14e-4f73-a8db-59f8638a746d
+        -   Folder: Obstacles
+            Entity:
+                Id: 4c5ccc53-af99-4696-9c65-42e26efb36dd
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 9fed8131-468c-476a-83e6-a76e4b50a42d
+                        Position*: {X: 4.858253, Y: 1.0, Z: -1.2084529}
+                        Rotation*: {X: 0.0058470294, Y: 0.8138191, Z: 0.004174829, W: 0.58107376}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: 3111b49f-7931-4dda-811e-d28c9b4b64ff
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: 2a210da3-3171-45ac-b53a-e4991ba90f29
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: 4c6f7a6b-e1c6-4f86-b3ff-70bf2f6871d1
+        -   Folder: Obstacles
+            Entity:
+                Id: 5799d271-1a60-4025-a80c-3ee93df532b6
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 0c145115-7c72-47bd-93ce-9bd791fb7c76
+                        Position*: {X: 5.592808, Y: 2.0071478, Z: -15.459068}
+                        Rotation*: {X: 0.0058470294, Y: 0.8138191, Z: 0.004174829, W: 0.58107376}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: c8531433-0a37-4f0a-8098-903fc896c16b
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: c0322a60-4b39-4905-98ab-ebb5204e9fe2
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: 593d53b8-a7e9-4499-a3a3-7cbd5b1d482f
+        -   Folder: Obstacles
+            Entity:
+                Id: 5b7a98d4-40ae-41e9-bfd0-fcb7a0adc4a6
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 07371e18-590d-4fc2-8763-1864b4e0ecb3
+                        Position*: {X: 17.274584, Y: 1.0, Z: 7.6108685}
+                        Rotation*: {X: 0.0058470294, Y: 0.8138191, Z: 0.004174829, W: 0.58107376}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: 3aaaf186-8147-4d11-bc48-8e643fe357e0
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: b1717d2d-657d-4d18-9853-64c89fcea518
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: 4aeb1462-543b-441a-844b-7f56313a1487
+        -   Folder: Obstacles
+            Entity:
+                Id: 5d610a1e-7b25-482b-b7f1-d352c7d45e30
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 0ce99399-ff2a-4ea3-a0c9-88971b64e0a5
+                        Position*: {X: 19.195538, Y: 2.8724144, Z: -18.186184}
+                        Rotation*: {X: 0.0058470294, Y: 0.8138191, Z: 0.004174829, W: 0.58107376}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: 84c4372e-14e1-413b-b697-f6dc88605fb1
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: 454b08d8-4940-4dac-b492-f1d9648cd2e2
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: 287a5b3d-547b-41c2-9d20-7ef040598ead
+        -   Folder: Obstacles
+            Entity:
+                Id: 604d3c9c-c09a-40a6-a93c-8f3c782b98a2
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 5028e62e-f1de-4599-9fd2-923d55270eda
+                        Position*: {X: -16.722502, Y: 1.0231719, Z: 0.73540926}
+                        Rotation*: {X: 0.0009923915, Y: 0.13812608, Z: 0.0071156244, W: 0.9903885}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: 66bb9b37-0dbb-4c83-b2fc-d481f5c7ad3f
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: af74027a-e86b-426c-96f3-d626e02ac129
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: bdfd636b-4793-4b68-b15b-0f5c102dcd02
+        -   Folder: Obstacles
+            Entity:
+                Id: 69351f24-cbb5-478f-8940-a4ee6c29c872
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: f1f76c3a-505f-4f7e-9269-4f19253386ff
+                        Position*: {X: 2.717412, Y: 1.9890897, Z: -19.912327}
+                        Rotation*: {X: 0.0009923915, Y: 0.13812608, Z: 0.0071156244, W: 0.9903885}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: fde26b0c-d5ef-4d89-82bd-b5cdf4c7d319
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: 489e0017-d200-4e25-8dfc-24e28336fbd6
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: aa663234-08f1-420d-8573-fa09ad982bcd
+        -   Folder: Obstacles
+            Entity:
+                Id: 6a5e5293-9c4e-4776-bc33-aabfb12d804d
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 36f86459-75b0-4f6f-b415-b6b3ac32fbba
+                        Position*: {X: 16.830788, Y: 1.0231719, Z: 15.327196}
+                        Rotation*: {X: 0.0009923915, Y: 0.13812608, Z: 0.0071156244, W: 0.9903885}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: da316db3-0157-40a2-a60f-0a34ac07689c
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: c901fc9a-7694-4511-b4b4-a58fe8b3010d
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: 62e2091f-f285-4755-a066-6c038b6f0aa8
+        -   Folder: Obstacles
+            Entity:
+                Id: 6ca14066-94e2-41be-a1ad-deb344aa909d
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 6f142eca-9df0-489f-949a-5f3b2079c738
+                        Position*: {X: 15.764233, Y: 1.0, Z: 2.2183228}
+                        Rotation*: {X: 0.0058470294, Y: 0.8138191, Z: 0.004174829, W: 0.58107376}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: 27f4d1b2-7350-4e27-ab54-9a8a8e7fa5bf
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: 819a6b89-ace2-4c25-9de6-d29bd3d628fd
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: 7966992e-1ed4-4fe5-beb4-8af5d6568d18
+        -   Folder: Obstacles
+            Entity:
+                Id: 70f68b06-dbb8-4498-94af-1a3c9bb7d876
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 6f6a58f8-8e0d-4b06-973b-622f9eb8c839
+                        Position*: {X: -4.047579, Y: 1.0231719, Z: 9.750236}
+                        Rotation*: {X: 0.0009923915, Y: 0.13812608, Z: 0.0071156244, W: 0.9903885}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: 9663b571-30c0-4c52-882b-e0acc2fe373f
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: 69565ef8-f822-4226-82c4-b1741dee962b
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: 8238cef3-9a8e-4a4a-b963-539fcd12813a
+        -   Folder: Obstacles
+            Entity:
+                Id: 78d72b82-6272-4926-9c5a-a8263d12d74d
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 50bd3e85-75ce-467a-9185-edaa736bf22d
+                        Position*: {X: 3.0353715, Y: 1.0, Z: 1.9773989}
+                        Rotation*: {X: 0.0009923915, Y: 0.13812608, Z: 0.0071156244, W: 0.9903885}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: 7b9ba583-6476-43e5-abde-8a1bf86c6c6e
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: bc7a49cb-e10e-4a3c-a6d6-86ed200fa741
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: 2270b7a9-5ce0-4ed0-9995-d3bcc3afeed1
+        -   Folder: Obstacles
+            Entity:
+                Id: 7fe718ff-bf3b-4d8b-9686-9d252a273feb
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 4bb63736-5f91-420f-930a-15e7a0e85925
+                        Position*: {X: 1.3179345, Y: 1.0231719, Z: 7.4169474}
+                        Rotation*: {X: 0.0009923915, Y: 0.13812608, Z: 0.0071156244, W: 0.9903885}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: fda67a2a-c614-4c52-969d-93dcd9056394
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: 9941956e-29c6-42cf-a4dc-a82139140fe6
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: 2a8df60d-8f1c-4a3d-8ec9-532d2bab9755
+        -   Folder: Obstacles
+            Entity:
+                Id: 8da91f8c-6cdc-4d25-8b28-ab725786634f
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: e2434eed-451b-4cc1-97b2-5e49a60df5e9
+                        Position*: {X: -2.8409748, Y: 1.0231719, Z: 11.823482}
+                        Rotation*: {X: 0.0009923915, Y: 0.13812608, Z: 0.0071156244, W: 0.9903885}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: 8540b33b-55b0-465f-a97b-3064cf40ee30
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: f9fa3d3b-a9d5-4b9b-81dd-0a08804ba7f1
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: 15ef4114-4744-43b6-b098-524b9f96a1ce
+        -   Folder: Obstacles
+            Entity:
+                Id: 9478379a-075e-4cc9-85f1-0da904a7a3ac
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 2d5d371d-eead-4916-a87c-53224905c14a
+                        Position*: {X: -8.7469425, Y: 1.0231719, Z: -3.216544}
+                        Rotation*: {X: 0.0009923915, Y: 0.13812608, Z: 0.0071156244, W: 0.9903885}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: 21a1074d-8a7f-439c-bf7b-03e342914736
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: d558c6ff-b201-4452-9844-91f0717424f4
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: 8697a595-cf3c-4719-8109-050cb73ea835
+        -   Folder: Obstacles
+            Entity:
+                Id: a616710d-0ccd-41a6-b799-762560d0f665
+                Name: Capsule
+                Components:
+                    dee69bb1ec085229e04fc79b883ed923: !TransformComponent
+                        Id: cb35676a-9ef1-4ac0-8406-b307f143c9c5
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    249b3cb7afffed76d145dd062f423977: !ModelComponent
+                        Id: 4e58737b-ca7a-4269-9831-68091bb128aa
+                        Model: 2d04402a-9aff-477b-bc76-da6d511674b8:Models/Capsule
+                        Materials: {}
+                    8c5cdc92bd0baa9e0af8c195b3bc4f0d: !InstancingComponent
+                        Id: 968db19b-6455-4cf6-9e92-77968b0510a1
+                        Type: !InstancingEntityTransform {}
+        -   Folder: Obstacles
+            Entity:
+                Id: b569868a-87ff-4d92-bee3-c3f990ac23cd
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 069aa289-65bb-475d-9f87-8a9edef666ca
+                        Position*: {X: 2.224942, Y: 1.0, Z: -7.2402067}
+                        Rotation*: {X: 0.0009923915, Y: 0.13812608, Z: 0.0071156244, W: 0.9903885}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: 3ed7fd46-7304-4a8f-83f7-915b95ef4ad6
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: 1a36af28-6fbd-446e-b863-75f6786ff036
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: d3571253-1511-4e81-88c1-fe964e0b0d1b
+        -   Folder: Obstacles
+            Entity:
+                Id: b623b111-307c-48f8-80c5-9f81855853a3
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 6c2d62f3-2639-442f-a5e8-415b073e9807
+                        Position*: {X: -2.8434644, Y: 1.0231719, Z: 2.005503}
+                        Rotation*: {X: 0.0009923915, Y: 0.13812608, Z: 0.0071156244, W: 0.9903885}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: f3712c91-1081-4a5c-bcce-c899bcda7900
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: 76679fbe-a84c-43fe-843f-0936cb0a6f03
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: b786070f-2f92-4bc4-831d-8cb0b91f42a9
+        -   Folder: Obstacles
+            Entity:
+                Id: c2331f20-9ed9-4882-9e92-53f528883f02
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: f70206fa-f903-46b5-b6ae-b6dc45cee592
+                        Position*: {X: 4.827098, Y: 1.8644836, Z: -19.661438}
+                        Rotation*: {X: 0.0058470294, Y: 0.8138191, Z: 0.004174829, W: 0.58107376}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: 5d0abf92-7150-4442-8bc4-740dc6409daa
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: 3ec52386-0ec3-4dc6-9a99-ffdc2f59318d
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: e3a9a854-7c44-4f7a-828d-e8f2169fec0c
+        -   Folder: Obstacles
+            Entity:
+                Id: d16b1248-0e97-43e2-b11d-2ac237741bea
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 38f83001-8fe2-4579-85cf-bf9ded633ec5
+                        Position*: {X: 12.322798, Y: 1.0552834, Z: 13.381508}
+                        Rotation*: {X: 0.0009923915, Y: 0.13812608, Z: 0.0071156244, W: 0.9903885}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: e68ec75d-7343-4a93-8481-28e4aadcc17b
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: cb88ee4e-38a5-43bb-a9e4-0799fdbbf3ee
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: d874ca5d-1bf1-4761-9de6-e31b405f50f9
+        -   Folder: Obstacles
+            Entity:
+                Id: d344113c-76e9-46c0-aa3d-6248939ef187
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: bef68882-81c0-4533-a464-da8941ba628c
+                        Position*: {X: -13.0222435, Y: 1.0231719, Z: -6.7790866}
+                        Rotation*: {X: 0.0009923915, Y: 0.13812608, Z: 0.0071156244, W: 0.9903885}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: 98c714e3-7c97-4070-a14e-40cc74cc9616
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: e2ccf193-e56b-4a8a-9db9-114c7fc189ce
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: 044a8940-825b-4c87-90ea-1a055e72c53c
+        -   Folder: Obstacles
+            Entity:
+                Id: d42d00c9-f695-4964-8b10-c3a7b43a8117
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 979b6322-c05b-464c-9987-34af226efe18
+                        Position*: {X: -7.157191, Y: 1.0231719, Z: 3.3041258}
+                        Rotation*: {X: 0.0009923915, Y: 0.13812608, Z: 0.0071156244, W: 0.9903885}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: e8949747-0dae-4c70-9ef5-ab388d29c737
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: bafc852d-9093-4146-87aa-1f84fc8514f2
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: a6771e4a-4258-4ae4-a0ff-0946af0ab3aa
+        -   Folder: Obstacles
+            Entity:
+                Id: d5747d29-de97-419b-bf39-7a38281b29cf
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 656db55c-d7dd-4f7c-b2fd-76a984f1cdc3
+                        Position*: {X: 11.735853, Y: 1.0552834, Z: 6.3549843}
+                        Rotation*: {X: 0.0058470294, Y: 0.8138191, Z: 0.004174829, W: 0.58107376}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: 2ec457bd-f111-4ab3-a753-6d2f3e13dfa5
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: 0a523c62-94c3-4ca8-886d-751e6077bd2f
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: d522ef3f-3257-4140-aa2d-4f2f229d007c
+        -   Folder: Obstacles
+            Entity:
+                Id: d8b51801-1406-4885-be0b-6e92a6c73b47
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 1d4f9fde-3e03-4352-b79c-48fadcfbb531
+                        Position*: {X: -16.65367, Y: 1.0231719, Z: 3.6766262}
+                        Rotation*: {X: 0.0009923915, Y: 0.13812608, Z: 0.0071156244, W: 0.9903885}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: 16a6ffcc-25df-4e3d-a153-75481813b443
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: 8257b8b5-9bf5-41a0-a506-ea83d5af3cc8
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: f40a00f2-f3ee-48b6-908f-29d27ac7de5d
+        -   Folder: Obstacles
+            Entity:
+                Id: dc4e5c03-cabb-4cff-9017-2cb72272d38d
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 53589cfa-3eec-441f-b2aa-2a8aeda2ef6a
+                        Position*: {X: 14.681647, Y: 1.9890897, Z: -8.964826}
+                        Rotation*: {X: 0.0009923915, Y: 0.13812608, Z: 0.0071156244, W: 0.9903885}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: 3cf19e8c-11da-4143-9819-10d45e8aa874
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: 78aba551-3dd9-4c3a-a44d-5adf0f3770ec
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: 27f96da2-762b-42e2-9c74-a60fafa8041a
+        -   Folder: Obstacles
+            Entity:
+                Id: ddf7a14f-57e3-442a-b235-386b44894118
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: b139bd14-692b-45f4-ba0c-87a970b45351
+                        Position*: {X: 0.5702033, Y: 1.0, Z: -0.053280473}
+                        Rotation*: {X: 0.0009923915, Y: 0.13812608, Z: 0.0071156244, W: 0.9903885}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: 42270ede-a099-45da-a82d-32bf44ebeed4
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: e432bca5-ab2f-4a25-a566-3b3390ad3bc5
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: 7fb607b2-95fe-4e7f-aa64-5680d06b50d3
+        -   Folder: Obstacles
+            Entity:
+                Id: df72ae71-bc40-4a7d-9d47-463eb85bf602
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 4fab7c9e-e468-485d-8051-ab4d5dc19d5c
+                        Position*: {X: 16.554237, Y: 2.0071478, Z: -4.862654}
+                        Rotation*: {X: 0.0058470294, Y: 0.8138191, Z: 0.004174829, W: 0.58107376}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: 37708c35-b7df-4477-a98b-8f446e68e81a
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: d5ed49de-1e5b-408e-ab1d-bcb71fca80e1
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: e1581e65-23bd-4382-bde5-a1481cfdc7e9
+        -   Folder: Obstacles
+            Entity:
+                Id: e7363418-02ae-42b5-ac3b-e875dfe4d68e
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: b364dea5-538d-47ab-bbce-5e8686d05957
+                        Position*: {X: 3.2133272, Y: 2.0071478, Z: -15.130732}
+                        Rotation*: {X: 0.0058470294, Y: 0.8138191, Z: 0.004174829, W: 0.58107376}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: 70894e74-b95b-4ae4-bd70-5cfea12b72e7
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: 4923ae5a-06e5-44a0-8809-df5a6f0c9264
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: c80ba1a8-a7c5-4dad-b7ea-18feb78ed5e4
+        -   Folder: Obstacles
+            Entity:
+                Id: e832d9c2-9848-4885-b6a6-44b8470f2dac
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 6ade4e1f-4f9c-4f5d-82e5-da1bd0d7ad99
+                        Position*: {X: 13.619588, Y: 1.0, Z: 9.835303}
+                        Rotation*: {X: 0.0058470294, Y: 0.8138191, Z: 0.004174829, W: 0.58107376}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: 3f70697c-e658-47da-9069-5d7ca1b936aa
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: 8f2dd2f9-7bb8-4f54-8801-abfb59e6a679
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: 37739061-e541-414e-a799-b4c077c92777
+        -   Folder: Obstacles
+            Entity:
+                Id: eb48125e-884b-438d-a857-de2354dbe86e
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: d8f781dc-6161-40d0-a5a5-ec56fde299e6
+                        Position*: {X: -12.82725, Y: 1.0231719, Z: -2.6501172}
+                        Rotation*: {X: 0.0009923915, Y: 0.13812608, Z: 0.0071156244, W: 0.9903885}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: 8402c043-d857-46cf-87c3-7c4343e6ad7d
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: 073c782d-9d6e-4979-8ad3-2f5515ff2375
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: 39a18233-e42f-43c9-8b7d-b7294d3442a5
+        -   Folder: Obstacles
+            Entity:
+                Id: f18d2947-5d18-42e9-b83b-06d7b404f1fe
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: b0f4637e-9a79-4612-a053-aedcd549ca86
+                        Position*: {X: 8.051196, Y: 1.1030699, Z: 4.103601}
+                        Rotation*: {X: 0.0058470294, Y: 0.8138191, Z: 0.004174829, W: 0.58107376}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: 5e18464d-4e5b-4657-89a0-e1f7cb07bc6e
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: 91572bc1-c543-4c8d-a82f-e450de17ae49
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: 4433e018-e79d-4053-b4fa-57764ad02b11
+        -   Folder: Obstacles
+            Entity:
+                Id: f3f22022-b1ce-4fc7-ae2b-81514fa82836
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 4c418d46-ec96-4a8a-b6bf-4df2d7f4f987
+                        Position*: {X: -13.250035, Y: 1.0231719, Z: 2.6993887}
+                        Rotation*: {X: 0.0009923915, Y: 0.13812608, Z: 0.0071156244, W: 0.9903885}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: f4a04fe1-401e-4335-a5bc-c23a9184bc94
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: 56830621-3c58-4ab0-9c27-164c18a3235d
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: 337dcdc8-39de-4a60-9f0d-19f6b2d9d6e4
+        -   Folder: Obstacles
+            Entity:
+                Id: f62dc538-c091-4d86-ad1f-e985c0f4c59a
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 5f6e060a-08c2-4a28-a976-003193a8ca12
+                        Position*: {X: -6.019961, Y: 1.0552834, Z: -1.798097}
+                        Rotation*: {X: 0.0009923915, Y: 0.13812608, Z: 0.0071156244, W: 0.9903885}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: b3af8e87-e1ff-4ff3-a424-e82cc6773b09
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: 95ea3f45-d679-4f6a-9bec-98cd1ffe8200
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: 4d27f53f-a17e-4b2b-8bac-5975ffe89a96
+        -   Folder: Obstacles
+            Entity:
+                Id: ff68d801-16b9-4201-9531-24db1f41fbf7
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: 5141cfc3-859d-497d-a941-86f20f018836
+                        Position*: {X: 13.721939, Y: 2.9471729, Z: -20.156452}
+                        Rotation*: {X: 0.0058470294, Y: 0.8138191, Z: 0.004174829, W: 0.58107376}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: db9f908f-a814-48ef-bc7f-0e0b5893d86e
+                        Master*: ref!! 968db19b-6455-4cf6-9e92-77968b0510a1
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: 2e658b30-8694-4ab0-8681-ee602adf3f3a
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 670afe79-1389-417f-8e05-07f5aa5ce0da:GameplayPrefab/DynamicObstacle
+                BasePartId: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                InstanceId: b39f637f-65c4-479f-bc49-bdd7c5fee4ff

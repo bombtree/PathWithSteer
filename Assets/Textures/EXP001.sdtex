@@ -1,0 +1,8 @@
+!Texture
+Id: 2328a492-d98f-4ee2-9dd9-de2a222b32bc
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/Textures/Explosion/EXP001.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+IsStreamable: false

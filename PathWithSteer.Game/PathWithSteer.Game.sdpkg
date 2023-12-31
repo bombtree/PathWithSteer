@@ -1,0 +1,23 @@
+!Package
+SerializedVersion: {Assets: 3.1.0.0}
+Meta:
+    Name: PathWithSteer.Game
+    Version: 1.0.0
+    Authors: []
+    Owners: []
+    RootNamespace: PathWithSteer
+    Dependencies: null
+AssetFolders:
+    -   Path: !dir ../Assets
+    -   Path: !dir Effects
+ResourceFolders: []
+OutputGroupDirectories: {}
+ExplicitFolders: []
+Bundles: []
+TemplateFolders: []
+RootAssets:
+    - 86d903a9-230f-4de1-9753-d687c14d2d20:SouthernChunk
+    - 93936fb8-7284-4fbf-89df-c2169092aa85:NorthernChunk
+    - a237b23b-a0a3-40ae-a8bc-1b6585623fb6:EasternChunk
+    - a492be2c-0de4-4fdf-b3ac-48029d208f45:CentralChunk
+    - fde0d2eb-1ac4-4547-b262-b3f6644f425a:WesternChunk

@@ -1,0 +1,8 @@
+!Sound
+Id: cad3dc7a-fbd7-471c-aeeb-713e7707551f
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/Audio/crate_breaking.wav
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: true

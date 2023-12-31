@@ -1,0 +1,45 @@
+!PrefabAsset
+Id: 670afe79-1389-417f-8e05-07f5aa5ce0da
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! ab138fe8-6411-48da-ba89-fdd39e9f22ba
+    Parts:
+        -   Folder: Obstacles
+            Entity:
+                Id: ab138fe8-6411-48da-ba89-fdd39e9f22ba
+                Name: Obstacle1
+                Components:
+                    d83bd17e22437aefa83e537ecf9a24bc: !TransformComponent
+                        Id: a17de227-62ba-44ab-9cbf-79a8856d6ef7
+                        Position: {X: -0.22366107, Y: 1.0, Z: -6.9040833}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6296d754efc6852c8d014b34ee94b2bb: !InstanceComponent
+                        Id: 103c7fa9-7768-4485-927d-8489f7825d2c
+                        Master: null
+                    974e53a4f1ea1a766b76b8f33e3b8f33: !RigidbodyComponent
+                        Id: 92214799-d45d-4dca-b37a-8c6a9dea7884
+                        CollisionGroup: CharacterFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bbf3d55db4339de3df0329a1e5254b9d: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
