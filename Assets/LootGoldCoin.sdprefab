@@ -55,7 +55,7 @@ Hierarchy:
                         Id: 48b3ee76-ae56-4880-8daf-19410ab51cf5
                         Model: eaf6e793-62dc-40a7-9887-49b970290203:Models/CoinGold
                         Materials: {}
-                    5d7c980f639f67459b68a76d9fcdd82c: !LifeSim.Gameplay.Trigger,LifeSim.Game
+                    5d7c980f639f67459b68a76d9fcdd82c: !PathWithSteer.Gameplay.Trigger,PathWithSteer.Game
                         Id: 0f987c5d-9f63-4567-9b68-a76d9fcdd82c
                         TriggerCondition: StartOnly
                     ad21c26f9cdcbb47a25089fd9e0b23d5: !RigidbodyComponent
@@ -81,7 +81,7 @@ Hierarchy:
                                 Is2D: false
                                 Radius: 0.025
                                 LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
-                    01ab324bade8aa4c9118f516e330ca39: !LifeSim.Gameplay.LootCoinScript,LifeSim.Game
+                    01ab324bade8aa4c9118f516e330ca39: !PathWithSteer.Gameplay.LootCoinScript,PathWithSteer.Game
                         Id: 4b32ab01-e8ad-4caa-9118-f516e330ca39
                         CoinGetEffect: 1f259a56-70ca-4d33-8cd3-37cd01911374:VFXPrefabs/vfx-GetCoin
                         Trigger: ref!! 0f987c5d-9f63-4567-9b68-a76d9fcdd82c
